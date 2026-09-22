@@ -37,5 +37,8 @@ const edad = 21;
 let min = 35;
 let seg = 17;
 
-edad >= 0 && edad > 18 && min > 0 && min <= 60 && seg > 0 && seg <= 60 ? console.log("la edad es positiva y es mayor de edad. Los min y los segundos son válidos"): console.log("Los parametros no son correctos");
+edad >= 0 && edad > 18 && min > 0 && min <= 60 && seg > 0 && seg <= 60 ? 
+console.log("la edad es positiva y es mayor de edad. Los min y los segundos son válidos")
+: console.log("Los parametros no son correctos");
+
 
