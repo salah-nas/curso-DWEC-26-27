@@ -32,7 +32,7 @@ function ordenarNumeros(n1,n2){
 //¿como truncamos un numero a 2 cifras decimales?
 
 function ceToKel(celcius){
-  if(Number.isFinite(celcius)){
+  if(!isNaN(celcius)){
     if(celcius >= -273){
       let kelvin = celcius + 273.15;
       let truncado = Math.trunc(kelvin * 100) / 100;
